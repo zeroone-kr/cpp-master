@@ -3,29 +3,31 @@
 using namespace std;
 
 class Animal {
+
 private:
 	int food;
 	int weight;
 
 public:
-
 	void set_animal(int _food, int _weight);
-	
 	void increase_food(int inc);
-
 	void view_stat();
 
 };
 
 
 void Animal::set_animal(int food, int weight) {
+
 	this->food = food;
 	this->weight = weight;
+
 }
 
 void Animal::increase_food(int inc) {
+
 	this->food += inc;
 	this->weight += (inc / 3);
+
 }
 
 void Animal::view_stat() {
@@ -37,10 +39,11 @@ void Animal::view_stat() {
 
 
 int main() {
-	
+
 	Animal animal;
 	animal.set_animal(100, 50);
 	animal.increase_food(30);
 	animal.view_stat();
 	return 0;
+
 }
