@@ -1,5 +1,5 @@
 # cpp_samples
-학습용
+개인 학습용
 
 # 파일 내용
 - 클래스: animal.cpp
